@@ -1,0 +1,20 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b77ca440-5f94-4359-994b-2e80d31526f4)
+
+  (paper "A3")
+
+  (lib_symbols
+  )
+
+
+  (text "I'm sorry for inverting the shift registers..." (at 150.495 146.05 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c85af0a9-78df-4514-bfe8-bdf420167aed)
+  )
+  (text "NOTES:\n\n- Shift registers pull columns high one at a time,\n    then row states are read.\n\n- Diodes 1N4148WX-TP"
+    (at 337.82 78.105 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f0ede268-e7cd-4f56-bf22-af369e3bf281)
+  )
+)

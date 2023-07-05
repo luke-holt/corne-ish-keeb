@@ -1,0 +1,116 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6fa03eae-6958-4f56-b94e-25860e4a6b72)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 63.5 88.9) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4551b86e-1659-4dd6-a107-fae98c205186)
+    (property "Sheetname" "trrs_connectors" (at 63.5 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "trrs_connectors.kicad_sch" (at 63.5 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "txm-corne-pcb"
+        (path "/6fa03eae-6958-4f56-b94e-25860e4a6b72" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 63.5 63.5) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8b4fd2e9-c2fc-43db-b759-d858db71fac8)
+    (property "Sheetname" "microcontroller" (at 63.5 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "microcontroller.kicad_sch" (at 63.5 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "txm-corne-pcb"
+        (path "/6fa03eae-6958-4f56-b94e-25860e4a6b72" (page "1"))
+      )
+    )
+  )
+
+  (sheet (at 63.5 127) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 97c4e445-3ac6-4090-8210-d1d57f4a026f)
+    (property "Sheetname" "left_led_matrix" (at 63.5 126.2884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "left_led_matrix.kicad_sch" (at 63.5 131.3946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "txm-corne-pcb"
+        (path "/6fa03eae-6958-4f56-b94e-25860e4a6b72" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 63.5 114.3) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cdb7ce65-974e-4e9a-a4e1-0b8019404bf5)
+    (property "Sheetname" "right_led_matrix" (at 63.5 113.5884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "right_led_matrix.kicad_sch" (at 63.5 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "txm-corne-pcb"
+        (path "/6fa03eae-6958-4f56-b94e-25860e4a6b72" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 63.5 76.2) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d7b1c0fb-df05-4ed8-aa52-2ce3dc1935e6)
+    (property "Sheetname" "usb" (at 63.5 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb.kicad_sch" (at 63.5 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "txm-corne-pcb"
+        (path "/6fa03eae-6958-4f56-b94e-25860e4a6b72" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 63.5 102.235) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid da5701b8-52ae-41c6-b858-0b4a5ccc7911)
+    (property "Sheetname" "io_expander" (at 63.5 101.5234 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "io_expander.kicad_sch" (at 63.5 106.6296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "txm-corne-pcb"
+        (path "/6fa03eae-6958-4f56-b94e-25860e4a6b72" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "0"))
+  )
+)
