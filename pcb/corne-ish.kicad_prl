@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 1,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -23,8 +23,8 @@
       "otherItems": false,
       "pads": false,
       "text": false,
-      "tracks": true,
-      "vias": true,
+      "tracks": false,
+      "vias": false,
       "zones": false
     },
     "visible_items": [
@@ -37,7 +37,6 @@
       9,
       10,
       11,
-      12,
       13,
       15,
       16,
@@ -68,7 +67,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "txm-corne-pcb.kicad_prl",
+    "filename": "corne-ish.kicad_prl",
     "version": 3
   },
   "project": {
